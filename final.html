@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Technoverse 3.0</title>
+
+<style>
+
+body{
+margin:0;
+padding:0;
+background:#0a0a1a;
+font-family:Arial, Helvetica, sans-serif;
+color:white;
+}
+
+.container{
+width:900px;
+margin:40px auto;
+border-radius:12px;
+overflow:hidden;
+box-shadow:0 0 40px rgba(0,0,0,0.7);
+}
+
+.header{
+width:100%;
+display:block;
+}
+
+/* BACKGROUND SECTION */
+
+.content-area{
+position:relative;
+min-height:1300px;
+}
+
+.bg-image{
+position:absolute;
+width:100%;
+height:100%;
+object-fit:cover;
+}
+
+.overlay{
+position:absolute;
+width:100%;
+height:100%;
+background:linear-gradient(
+to bottom,
+rgba(0,0,0,0.4),
+rgba(0,0,0,0.85)
+);
+}
+
+/* CONTENT */
+
+.content{
+position:relative;
+z-index:2;
+display:flex;
+flex-direction:column;
+align-items:center;
+text-align:center;
+padding:120px 80px;
+}
+
+/* TITLE */
+
+.title{
+font-size:64px;
+font-weight:800;
+color:#00eaff;
+text-shadow:0 0 18px rgba(0,234,255,0.7);
+margin-bottom:40px;
+}
+
+/* DESCRIPTION */
+
+.desc{
+max-width:520px;
+font-size:20px;
+line-height:1.8;
+color:#e6f9ff;
+margin-bottom:60px;
+}
+
+/* DETAILS BOX */
+
+.details{
+background:rgba(0,30,60,0.65);
+padding:28px 40px;
+border-radius:12px;
+border:1px solid rgba(0,234,255,0.5);
+backdrop-filter:blur(10px);
+margin-bottom:30px;
+}
+
+.details p{
+margin:10px 0;
+font-size:25px;
+}
+
+/* TEAM TEXT */
+
+.team{
+font-size:18px;
+color:#c7f4ff;
+margin-bottom:35px;
+}
+
+/* BUTTON */
+
+.button{
+background:linear-gradient(90deg,#ff0060,#ff3b86);
+padding:18px 55px;
+border-radius:10px;
+font-size:20px;
+font-weight:bold;
+color:white;
+text-decoration:none;
+box-shadow:0 0 20px rgba(255,0,90,0.6);
+}
+
+.button:hover{
+background:linear-gradient(90deg,#ff3b86,#ff5fa0);
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<img src="top_final.png" class="header">
+
+<div class="content-area">
+
+<img src="back.png" class="bg-image">
+
+<div class="overlay"></div>
+
+<div class="content">
+
+<div class="title">
+Registrations<br>Now Open!
+</div>
+
+<div class="desc">
+
+<p><b>Dear Tech Enthusiasts,</b></p>
+<p>
+We are excited to announce the opening of registrations for 
+<b>Technoverse 3.0</b>, an engaging technical speaker session organized by 
+<b>Technocrats – KIET Group of Institutions</b>.
+</p>
+
+<p>
+Join us for an insightful session where innovation meets inspiration, bringing together passionate learners, developers, and technology enthusiasts.
+</p>
+
+</div>
+
+<div class="details">
+
+<p>📅 <b>Date:</b> March 18, 2026</p>
+<p>⏰ <b>Time:</b> 1:30 PM</p>
+<p>📍 <b>Venue:</b> KIET Auditorium</p>
+
+</div>
+
+<div class="team">
+
+<p><b>Team Technocrats</b></p>
+<p>KIET Group of Institutions</p>
+
+</div>
+
+<a href="link" class="button">REGISTER NOW</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
